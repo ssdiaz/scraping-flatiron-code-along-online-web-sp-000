@@ -16,7 +16,7 @@ class Scraper
   #     course.description = post.css("p").text
   #   end
   #   binding.pry
-  # end
+   end
 end
 Scraper.new.get_page
 # rspec spec/scraper_spec.rb
